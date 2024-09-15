@@ -57,4 +57,19 @@
     </footer>
     <script src="scripts.js"></script>
 </body>
-</html>
+</html><script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"></script>
+
+<script>
+  // Initialize Firebase
+  var firebaseConfig = {
+    // Your Firebase configuration
+  };
+  firebase.initializeApp(firebaseConfig);
+
+  // Reference to the Realtime Database
+  var database = firebase.database();
+
+  // ... rest of your Firebase code ...
+</script>
